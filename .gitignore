@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# GnuCOBOL compiled executables (no extension)
+cobol-*/CLMGEN
+cobol-*/CLMPROC
+cobol-*/CLMRPT
+cobol-*/BANKACCT
+
+# GnuCOBOL shared modules
+*.dylib
+*.so
+
+# GnuCOBOL build artifacts
+*.o
+
+# Generated binary data files
+cobol-*/data/*.DAT
+
+# Runtime logs
+cobol-*/data/JOB.LOG
+
+# GnuCOBOL source distribution
+gnucobol-*
+*.tar.xz
